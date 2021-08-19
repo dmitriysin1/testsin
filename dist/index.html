@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Уровни Дружбы</title>
+	<meta name="description" content="Уровни Дружбы">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<section class="friendship-level">
+		<div class="container">
+			<h1 class="friendship-level__title">Уровни Дружбы</h1>
+			<p class="friendship-level__subtitle">Для участников программы есть несколько уровней со своими привилегиями и условиями.</p>
+			<div class="friendship-level__wrap">
+				<div class="friendship-level__card">
+					<p class="friendship-level__card-subtitle">уровень</p>
+					<h2 class="friendship-level__card-title">Friend</h2>
+					<p class="friendship-level__card-subtitle">условие</p>
+					<p class="friendship-level__card-desc">Присваивается всем участникам программы получившим карты</p>
+				</div>
+				<div class="friendship-level__card">
+					<p class="friendship-level__card-subtitle">уровень</p>
+					<h2 class="friendship-level__card-title" id="title-level-2">Good Friend</h2>
+					<p class="friendship-level__card-subtitle">условие</p>
+					<p class="friendship-level__card-desc" id="desc-level-2">Поступивших друзей
+						<svg class="friendship-level__card-icon" id="icon-level-2" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+							<path d="M1.00003 0.881348L12.1346 6.44862L1.00003 12.0159" stroke-width="1.22883" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M13.7253 9.62988L2.59073 15.1972" stroke-width="1.22883" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					5</p>
+				</div>
+				<div class="friendship-level__card">
+					<p class="friendship-level__card-subtitle friendship-level3__card-subtitle">уровень</p>
+					<h2 class="friendship-level__card-title" id="title-level-3">Best Friend</h2>
+					<p class="friendship-level__card-subtitle friendship-level3__card-subtitle">условие</p>
+					<p class="friendship-level__card-desc" id="desc-level-3">Поступивших друзей
+						<svg class="friendship-level__card-icon" id="icon-level-3" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+							<path d="M1.00003 0.881348L12.1346 6.44862L1.00003 12.0159" stroke-width="1.22883" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M13.7253 9.62988L2.59073 15.1972" stroke-width="1.22883" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					10</p>
+				</div>
+				<div class="friendship-level__card-rangeslider">
+					<div id="range-slider" class="friendship-level__rangeslider"></div>
+				</div>
+				<div class="friendship-level__card">
+					<p class="friendship-level__card-subtitle">Начисление токенов</p>
+					<p class="friendship-level__card-percent">30%</p>
+				</div>
+				<div class="friendship-level__card">
+					<p class="friendship-level__card-subtitle">Начисление токенов</p>
+					<p class="friendship-level__card-percent" id="percent-level-2">40%</p>
+					<p class="friendship-level__card-bonus friendship-level-2__card-bonus">
+						<svg class="friendship-level__card-bonus-icon friendship-level-2__card-bonus-icon" width="10" height="11" viewBox="0 0 10 11">
+							<rect y="4.94434" width="10" height="1.11111"/>
+							<rect x="4.44427" y="10.5" width="10" height="1.11111" transform="rotate(-90 4.44427 10.5)"/>
+						</svg>
+						Участие в закрытых мероприятиях Synergy Friends</p>
+					<p class="friendship-level__card-bonus friendship-level-2__card-bonus">
+						<svg class="friendship-level__card-bonus-icon friendship-level-2__card-bonus-icon" width="10" height="11" viewBox="0 0 10 11">
+							<rect y="4.94434" width="10" height="1.11111"/>
+							<rect x="4.44427" y="10.5" width="10" height="1.11111" transform="rotate(-90 4.44427 10.5)"/>
+						</svg>
+						Участие в тренингах и программах от Школы Бизнеса «Синергии»</p>
+				</div>
+				<div class="friendship-level__card">
+					<p class="friendship-level__card-subtitle friendship-level3__card-subtitle">Начисление токенов</p>
+					<p class="friendship-level__card-percent" id="percent-level-3">50%</p>
+					<p class="friendship-level__card-bonus friendship-level-3__card-bonus">
+						<svg class="friendship-level__card-bonus-icon friendship-level-3__card-bonus-icon" width="10" height="11" viewBox="0 0 10 11">
+							<rect y="4.94434" width="10" height="1.11111"/>
+							<rect x="4.44427" y="10.5" width="10" height="1.11111" transform="rotate(-90 4.44427 10.5)"/>
+						</svg>
+						Участие в закрытых мероприятиях Synergy Friends</p>
+					<p class="friendship-level__card-bonus friendship-level-3__card-bonus">
+						<svg class="friendship-level__card-bonus-icon friendship-level-3__card-bonus-icon" xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11">
+							<rect y="4.94434" width="10" height="1.11111"/>
+							<rect x="4.44427" y="10.5" width="10" height="1.11111" transform="rotate(-90 4.44427 10.5)"/>
+						</svg>
+						Участие в тренингах и программах от Школы Бизнеса «Синергии»</p>
+					<p class="friendship-level__card-bonus friendship-level-3__card-bonus">
+						<svg class="friendship-level__card-bonus-icon friendship-level-3__card-bonus-icon" width="10" height="11" viewBox="0 0 10 11">
+							<rect y="4.94434" width="10" height="1.11111"/>
+							<rect x="4.44427" y="10.5" width="10" height="1.11111" transform="rotate(-90 4.44427 10.5)"/>
+						</svg>
+						Конвертация токенов в рубли</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
